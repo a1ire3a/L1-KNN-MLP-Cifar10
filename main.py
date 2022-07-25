@@ -12,8 +12,8 @@ def unpickle(file):
         data = pickle.load(fo, encoding='bytes')
     return data
 
-file1 = r'C:\Users\alire\PycharmProjects\pythonProject\L1distance_KNN_MLP\cifar-10-batches-py\data_batch_1'
-file0 = r'C:\Users\alire\PycharmProjects\pythonProject\L1distance_KNN_MLP\cifar-10-batches-py\batches.meta'
+file1 = r'...\cifar-10-batches-py\data_batch_1'
+file0 = r'...\cifar-10-batches-py\batches.meta'
 data_batch_1 = unpickle(file1)
 batches = unpickle(file0)
 
